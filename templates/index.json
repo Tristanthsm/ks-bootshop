@@ -394,13 +394,154 @@
         "pt": 10,
         "pb": 10
       }
+    },
+    "before_after_showcase": {
+      "type": "before-after",
+      "blocks": {
+        "result_confort": {
+          "type": "highlight",
+          "settings": {
+            "icon": "💧",
+            "title": "Peau apaisée",
+            "description": "<p>La micro-brumisation cible les zones sensibles et réduit de 60% la sensation d&#39;inconfort cutané.</p>"
+          }
+        },
+        "result_economie": {
+          "type": "highlight",
+          "settings": {
+            "icon": "♻️",
+            "title": "0 déchet jetable",
+            "description": "<p>Jusqu&#39;à 240 lingettes économisées par mois grâce au réservoir rechargeable.</p>"
+          }
+        },
+        "result_autonomie": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🔋",
+            "title": "Autonomie optimisée",
+            "description": "<p>Suivi intelligent de la batterie et rappel de recharge dans l&#39;application compagnon.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "result_confort",
+        "result_economie",
+        "result_autonomie"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 10,
+        "pt": 8,
+        "pb": 8,
+        "container_max_width": 1200,
+        "header_title": "Avant / après : preuves à l’appui",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Nos tests cliniques démontrent un gain de confort immédiat et une diminution des irritations dès 7 jours.</p>",
+        "header_description_font_size": "fs-md",
+        "lead_text": "Une amélioration mesurable sur le confort cutané dès la première semaine.",
+        "before_image": "shopify://shop_images/lifestyle-2.jpg",
+        "after_image": "shopify://shop_images/lifestyle-3.jpg",
+        "media_orientation": "ratio-4x3",
+        "media_ratio": "16 / 9",
+        "default_position": 58,
+        "before_label": "Sans Aquasplash",
+        "after_label": "Avec Aquasplash",
+        "slider_label": "Comparer les résultats Aquasplash",
+        "cta_text": "Voir le protocole dermatologique",
+        "cta_url": "/pages/la-science",
+        "cta_style": "btn-outline-primary",
+        "footnote": "Étude menée en laboratoire indépendant sur 50 volontaires, janvier 2024."
+      }
+    },
+    "journey_timeline": {
+      "type": "feature-timeline",
+      "blocks": {
+        "step_preparer": {
+          "type": "step",
+          "settings": {
+            "icon": "🚰",
+            "title": "Remplir",
+            "meta": "30 s",
+            "description": "<p>Ajoutez de l&#39;eau tempérée jusqu&#39;au repère et quelques gouttes de solution apaisante.</p>"
+          }
+        },
+        "step_personnaliser": {
+          "type": "step",
+          "settings": {
+            "icon": "🎯",
+            "title": "Personnaliser",
+            "meta": "Profil intelligent",
+            "description": "<p>Sélectionnez votre pression préférée via la molette latérale ou l&#39;application mobile.</p>"
+          }
+        },
+        "step_utiliser": {
+          "type": "step",
+          "settings": {
+            "icon": "🌀",
+            "title": "Utiliser",
+            "meta": "Jet contrôlé",
+            "description": "<p>Visez précisément grâce au dôme ergonomique et profitez d&#39;un nettoyage sans contact.</p>"
+          }
+        },
+        "step_recharger": {
+          "type": "step",
+          "settings": {
+            "icon": "🔌",
+            "title": "Recharger",
+            "meta": "90 min",
+            "description": "<p>Rechargez en USB-C et consultez le suivi d&#39;autonomie dans votre espace client.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_preparer",
+        "step_personnaliser",
+        "step_utiliser",
+        "step_recharger"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 10,
+        "pt": 9,
+        "pb": 10,
+        "container_max_width": 1200,
+        "header_title": "Votre parcours d’hygiène en 4 étapes",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Planifiez chaque geste pour garder une fraîcheur longue durée partout où vous allez.</p>",
+        "header_description_font_size": "fs-md",
+        "lead_text": "Un déroulé simple pour profiter d’une hygiène premium même en déplacement.",
+        "secondary_text": "<p>Chaque étape est pensée pour être intuitive : voyants LED, repères haptiques et rappels automatiques vous guident à chaque utilisation.</p>",
+        "cta_text": "Ajouter Aquasplash au panier",
+        "cta_url": "/products/aquasplash",
+        "cta_style": "btn-primary",
+        "secondary_cta_text": "Télécharger le guide PDF",
+        "secondary_cta_url": "/pages/guide-utilisation",
+        "secondary_cta_style": "btn-outline-primary",
+        "helper_text": "Support client 7j/7 et livraisons suivies dans toute l’Europe.",
+        "enable_animation": true,
+        "animation_delay": 160
+      }
     }
   },
   "order": [
     "hero_aquasplash",
     "usp_pillars",
     "comparison",
+    "before_after_showcase",
     "stats_performance",
+    "journey_timeline",
     "temoignages",
     "faq_aquasplash",
     "cta_finale"
