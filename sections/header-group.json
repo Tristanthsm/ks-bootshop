@@ -14,21 +14,21 @@
     "announcement_bar_Ge9W3V": {
       "type": "announcement-bar",
       "blocks": {
-        "slide_j46kwk": {
+        "slide_gXimnr": {
           "type": "slide",
           "settings": {
-            "announcement": "Announce something important here"
+            "announcement": "<strong>BIENVENUE</strong><strong>!</strong>"
           }
         },
         "slide_mwF4Tk": {
           "type": "slide",
           "settings": {
-            "announcement": "Free Shipping For All Orders Over $100"
+            "announcement": "<strong>BRAND DAY JUSQU'À 30% POUR LES MEMBRES!</strong>"
           }
         }
       },
       "block_order": [
-        "slide_j46kwk",
+        "slide_gXimnr",
         "slide_mwF4Tk"
       ],
       "settings": {
@@ -43,10 +43,10 @@
         "container_max_width": "600",
         "font_size": "fs-xs",
         "font_size_desktop": "fs-desktop-sm",
-        "text_transform": "",
-        "letter_spacing": 1,
-        "carousel_autoplay": 5,
-        "carousel_vertical": true,
+        "text_transform": "text-uppercase",
+        "letter_spacing": 3,
+        "carousel_autoplay": 3,
+        "carousel_vertical": false,
         "pt": 4,
         "pb": 4
       }
