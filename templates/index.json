@@ -34,12 +34,12 @@
             "overlay_color": "#000000",
             "overlay_opacity": 10,
             "overlay_blur": 2,
-            "subtitle": "Developed by KondaSoft",
-            "title": "Simple to Use, Easy to Customize",
-            "description": "<p>Free Shopify Theme inspired by simplicity and elegance.</p>",
-            "btn_primary_text": "Primary button",
+            "subtitle": "",
+            "title": "",
+            "description": "",
+            "btn_primary_text": "",
             "btn_primary_url": "",
-            "btn_secondary_text": "Secondary button",
+            "btn_secondary_text": "",
             "btn_secondary_url": ""
           }
         }
