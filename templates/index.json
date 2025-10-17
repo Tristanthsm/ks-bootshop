@@ -15,6 +15,7 @@
         "slide_Q4UPQq": {
           "type": "slide",
           "settings": {
+            "img_mobile": "shopify://shop_images/BIDET_mobile.png",
             "img_desktop": "shopify://shop_images/bidet.png",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
