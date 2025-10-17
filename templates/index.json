@@ -54,7 +54,7 @@
         "carousel_effect": "",
         "media_mobile_height": 500,
         "media_desktop_height": 400,
-        "media_adapt": false,
+        "media_adapt": true,
         "media_full": true,
         "caption_max_width": "900",
         "caption_position": "carousel-caption-center",
