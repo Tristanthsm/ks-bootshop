@@ -15,8 +15,8 @@
         "slide_Q4UPQq": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify://shop_images/dcfgvhbj.png",
-            "img_desktop": "shopify://shop_images/vbhjk.png",
+            "img_mobile": "shopify://shop_images/Proprete_confort_bien-etre.png",
+            "img_desktop": "shopify://shop_images/vzytub.png",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
             "overlay_blur": 0,
@@ -192,29 +192,13 @@
             "collection": "babies",
             "title": ""
           }
-        },
-        "collection_fQ9QDf": {
-          "type": "collection",
-          "settings": {
-            "collection": "latest",
-            "title": ""
-          }
-        },
-        "collection_kRQqkR": {
-          "type": "collection",
-          "settings": {
-            "collection": "sale",
-            "title": ""
-          }
         }
       },
       "block_order": [
         "collection_rznnLq",
         "collection_KdHXk9",
         "collection_b7ELCB",
-        "collection_XRMXNt",
-        "collection_fQ9QDf",
-        "collection_kRQqkR"
+        "collection_XRMXNt"
       ],
       "settings": {
         "bg_color": "bg-body",
