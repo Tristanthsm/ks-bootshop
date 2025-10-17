@@ -18,22 +18,7 @@
             "img_desktop": "shopify://shop_images/bidet.png",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
-            "overlay_blur": 2,
-            "subtitle": "",
-            "title": "",
-            "description": "",
-            "btn_primary_text": "",
-            "btn_primary_url": "",
-            "btn_secondary_text": "",
-            "btn_secondary_url": ""
-          }
-        },
-        "slide_TddqxQ": {
-          "type": "slide",
-          "settings": {
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "overlay_blur": 2,
+            "overlay_blur": 0,
             "subtitle": "",
             "title": "",
             "description": "",
@@ -45,8 +30,7 @@
         }
       },
       "block_order": [
-        "slide_Q4UPQq",
-        "slide_TddqxQ"
+        "slide_Q4UPQq"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -57,15 +41,15 @@
         "border_bottom_width": 0,
         "border_color": "border-body",
         "border_opacity": 100,
-        "carousel_controls": true,
-        "carousel_indicators": true,
+        "carousel_controls": false,
+        "carousel_indicators": false,
         "carousel_transition": "slide",
         "carousel_transition_duration": 500,
         "carousel_autoplay": 5,
-        "carousel_effect": "carousel-zoom-in",
+        "carousel_effect": "",
         "media_mobile_height": 500,
-        "media_desktop_height": 700,
-        "media_adapt": false,
+        "media_desktop_height": 400,
+        "media_adapt": true,
         "media_full": true,
         "caption_max_width": "900",
         "caption_position": "carousel-caption-center",
