@@ -33,6 +33,9 @@
       "block_order": [
         "slide_Q4UPQq"
       ],
+      "custom_css": [
+        ".slide-caption-wrapper {background-color: transparent;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
