@@ -34,7 +34,8 @@
         "slide_Q4UPQq"
       ],
       "custom_css": [
-        ".slide-caption-wrapper {background-color: transparent;}"
+        ".hero-carousel .carousel-caption,.hero-carousel .carousel-caption-inner {background-color: transparent !important;}",
+        ".hero-carousel .carousel-caption::before,.hero-carousel .carousel-caption::after {background-color: transparent !important;}"
       ],
       "settings": {
         "bg_color": "bg-body",
