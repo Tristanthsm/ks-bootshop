@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer Group",
@@ -16,11 +25,11 @@
         "container_max_width": "600",
         "header_title": "Newsletter Subscribe",
         "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
         "pt": 11,
         "pb": 11
       }
@@ -31,7 +40,7 @@
         "8b92bb0f-7aaa-4462-8660-b6a23bd9c31c": {
           "type": "menu",
           "settings": {
-            "menu": "shop",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Collections"
           }
@@ -39,7 +48,7 @@
         "79b0b9d4-1bf4-4490-a48e-94be1aecf12a": {
           "type": "menu",
           "settings": {
-            "menu": "company",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Company"
           }
@@ -57,12 +66,12 @@
           "settings": {
             "title": "About us",
             "title_font_size": "fs-xl",
-            "description": "<p>Finish your Shopify store within days, not months. 15+ years of coding experience, 50k+ customers served!<\/p>",
+            "description": "<p>Finish your Shopify store within days, not months. 15+ years of coding experience, 50k+ customers served!</p>",
             "btn_primary_text": "Browse themes",
-            "btn_primary_url": "https:\/\/www.kondasoft.com\/collections\/shopify-themes",
+            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes",
             "btn_primary_color": "btn-primary",
             "btn_secondary_text": "Learn more",
-            "btn_secondary_url": "https:\/\/www.kondasoft.com\/collections\/shopify-themes",
+            "btn_secondary_url": "https://www.kondasoft.com/collections/shopify-themes",
             "btn_secondary_color": "btn-light-white"
           }
         }
@@ -84,7 +93,7 @@
         "border_opacity": 100,
         "social_icons": true,
         "show_payment_icons": true,
-        "show_powered_by": true,
+        "show_powered_by": false,
         "pt": 10,
         "pb": 7
       }
