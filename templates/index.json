@@ -96,7 +96,7 @@
         "slider_navigation": true,
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": true,
+        "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
         "breakpoint_mobile": 1,
@@ -167,7 +167,8 @@
         "collection_rznnLq": {
           "type": "collection",
           "settings": {
-            "collection": "men",
+            "collection": "",
+            "img": "shopify://shop_images/20250928_1615_Aquaboost_Portable_Bidet_remix_01k68asepteww91xh67evmx251.png",
             "title": ""
           }
         },
@@ -233,7 +234,7 @@
         "slider_navigation": true,
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": true,
+        "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
         "collection_card_text_align": "text-center",
@@ -242,7 +243,7 @@
         "collection_card_show_title": true,
         "collection_card_title_font_size": "fs-md",
         "collection_card_title_position": "collection-card-title-normal",
-        "collection_card_show_product_count": true,
+        "collection_card_show_product_count": false,
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 3,
