@@ -77,7 +77,7 @@
           <div class="carousel-caption {{ section.settings.caption_position }}">
             <div 
               class="carousel-caption-inner" 
-              style="max-width: {{ section.settings.caption_max_width | append: 'px' }};">
+              style="max-width: {{ section.settings.caption_max_width | append: 'px' }}; background-color: transparent !important;">
               {% unless block.settings.subtitle == blank %}
                 <p class="subtitle {{ section.settings.subtitle_font_size }}">
                   {{ block.settings.subtitle }}
