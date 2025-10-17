@@ -52,7 +52,7 @@
         "carousel_transition_duration": 500,
         "carousel_autoplay": 5,
         "carousel_effect": "",
-        "media_mobile_height": 500,
+        "media_mobile_height": 1000,
         "media_desktop_height": 400,
         "media_adapt": true,
         "media_full": true,
