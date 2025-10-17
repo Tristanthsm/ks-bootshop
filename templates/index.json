@@ -1,28 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "hero_aquasplash": {
+    "hero_carousel_CmDneU": {
       "type": "hero-carousel",
       "blocks": {
-        "slide_premiere": {
+        "slide_Q4UPQq": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify://shop_images/lifestyle-1-mobile.jpg",
-            "img_desktop": "shopify://shop_images/lifestyle-1.jpg",
-            "overlay_color": "#111827",
-            "overlay_opacity": 45,
-            "overlay_blur": 0,
-            "subtitle": "Hygiène portable premium",
-            "title": "Aquasplash, la nouvelle norme d’hygiène.",
-            "description": "<p>Solution portable, écologique et économique.<br/><span class=\"badge bg-light text-dark mt-3\">-20% aujourd’hui</span></p>",
-            "btn_primary_text": "Acheter maintenant",
-            "btn_primary_url": "/products/aquasplash",
-            "btn_secondary_text": "Découvrir",
-            "btn_secondary_url": "#pourquoi-aquasplash"
+            "img_desktop": "shopify://shop_images/bidet.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "overlay_blur": 2,
+            "subtitle": "",
+            "title": "",
+            "description": "",
+            "btn_primary_text": "",
+            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes/products/ks-bootshop",
+            "btn_secondary_text": "",
+            "btn_secondary_url": "https://www.kondasoft.com/collections/shopify-themes/products/ks-bootshop"
+          }
+        },
+        "slide_TddqxQ": {
+          "type": "slide",
+          "settings": {
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "overlay_blur": 2,
+            "subtitle": "Developed by KondaSoft",
+            "title": "Simple to Use, Easy to Customize",
+            "description": "<p>Free Shopify Theme inspired by simplicity and elegance.</p>",
+            "btn_primary_text": "Primary button",
+            "btn_primary_url": "",
+            "btn_secondary_text": "Secondary button",
+            "btn_secondary_url": ""
           }
         }
       },
       "block_order": [
-        "slide_premiere"
+        "slide_Q4UPQq",
+        "slide_TddqxQ"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -37,69 +61,329 @@
         "carousel_indicators": true,
         "carousel_transition": "slide",
         "carousel_transition_duration": 500,
-        "carousel_autoplay": 0,
+        "carousel_autoplay": 5,
         "carousel_effect": "carousel-zoom-in",
-        "media_mobile_height": 520,
-        "media_desktop_height": 720,
+        "media_mobile_height": 500,
+        "media_desktop_height": 700,
         "media_adapt": false,
         "media_full": true,
-        "caption_max_width": "780",
-        "caption_position": "carousel-caption-start",
+        "caption_max_width": "900",
+        "caption_position": "carousel-caption-center",
         "subtitle_font_size": "fs-md",
-        "title_font_size": "h1",
+        "title_font_size": "h2",
         "description_font_size": "fs-lg",
         "btn_primary_color": "btn-primary",
-        "btn_secondary_color": "btn-outline-white",
+        "btn_secondary_color": "btn-secondary",
         "btn_font_size": "fs-md",
         "pt": 0,
         "pb": 0
       }
     },
-    "usp_pillars": {
-      "type": "card-list",
+    "featured_products_nXJKQn": {
+      "type": "featured-products",
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-primary",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "products": [],
+        "collection": "latest",
+        "limit": 8,
+        "recommended_mode": true,
+        "recommended_mode_intent": "related",
+        "header_title": "Featured Products",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": false,
+        "slider_autoplay": 0,
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 4,
+        "pt": 10,
+        "pb": 11
+      }
+    },
+    "richtext_4miPYL": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 5,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 1,
+        "border_bottom_width": 1,
+        "border_color": "border-primary",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "Richtext",
+        "title_font_size": "h3",
+        "description": "<p>Add on optional description for this section</p>",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "Primary button",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "Secondary button",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 12,
+        "pb": 12
+      }
+    },
+    "richtext_AtYwxr": {
+      "type": "richtext",
+      "disabled": true,
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-white",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "Richtext",
+        "title_font_size": "h2",
+        "description": "<p>Add on optional description for this section</p>",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "Primary button",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-white",
+        "btn_secondary_text": "Secondary button",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-light-white",
+        "pt": 11,
+        "pb": 11
+      }
+    },
+    "featured_collections_n3Br7m": {
+      "type": "featured-collections",
       "blocks": {
-        "usp_hygiene": {
+        "collection_rznnLq": {
+          "type": "collection",
+          "settings": {
+            "collection": "men",
+            "title": ""
+          }
+        },
+        "collection_KdHXk9": {
+          "type": "collection",
+          "settings": {
+            "collection": "women",
+            "title": ""
+          }
+        },
+        "collection_b7ELCB": {
+          "type": "collection",
+          "settings": {
+            "collection": "children",
+            "title": ""
+          }
+        },
+        "collection_XRMXNt": {
+          "type": "collection",
+          "settings": {
+            "collection": "babies",
+            "title": ""
+          }
+        },
+        "collection_fQ9QDf": {
+          "type": "collection",
+          "settings": {
+            "collection": "latest",
+            "title": ""
+          }
+        },
+        "collection_kRQqkR": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_rznnLq",
+        "collection_KdHXk9",
+        "collection_b7ELCB",
+        "collection_XRMXNt",
+        "collection_fQ9QDf",
+        "collection_kRQqkR"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 1,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 10,
+        "container_max_width": "",
+        "header_title": "Featured Collections",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "",
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": false,
+        "slider_autoplay": 0,
+        "collection_card_text_align": "text-center",
+        "collection_card_img_orientation": "ratio-16x9",
+        "collection_card_img_border": "img-thumbnail",
+        "collection_card_show_title": true,
+        "collection_card_title_font_size": "fs-md",
+        "collection_card_title_position": "collection-card-title-normal",
+        "collection_card_show_product_count": true,
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 3,
+        "pt": 11,
+        "pb": 11
+      }
+    },
+    "separator_kfq8kz": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 10,
+        "height": 1,
+        "container": "container",
+        "container_max_width": "",
+        "pt": 0,
+        "pb": 10
+      }
+    },
+    "media_with_text_xTY8gi": {
+      "type": "media-with-text",
+      "blocks": {
+        "row_JkMDbM": {
+          "type": "row",
+          "settings": {
+            "bg_color": "bg-secondary",
+            "bg_opacity": 5,
+            "bg_gradient": "",
+            "text_color": "text-body",
+            "border_top_width": 1,
+            "border_bottom_width": 1,
+            "border_color": "border-primary",
+            "border_opacity": 10,
+            "media_align_desktop": "",
+            "media_border": "img-thumbnail",
+            "img_orientation": "ratio-9x16",
+            "video_ratio": "adapt",
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_muted": true,
+            "video_controls": true,
+            "external_video": "",
+            "text_align_mobile": "text-center",
+            "text_align_desktop": "text-desktop-start",
+            "subtitle": "Optional Subtitle",
+            "title": "Media with text",
+            "title_font_size": "h3",
+            "description": "<p>Either show an image, video (MP4) or an external video (YouTube). If no text block is shown, the media will take full section's space.</p>",
+            "description_font_size": "fs-md",
+            "btn_primary_text": "Primary button",
+            "btn_primary_url": "",
+            "btn_primary_color": "btn-primary",
+            "btn_secondary_text": "Secondary button",
+            "btn_secondary_url": "",
+            "btn_secondary_color": "btn-outline-primary",
+            "pt": 10,
+            "pb": 10
+          }
+        }
+      },
+      "block_order": [
+        "row_JkMDbM"
+      ],
+      "settings": {
+        "container_max_width": ""
+      }
+    },
+    "card_slider_BFzjjF": {
+      "type": "card-slider",
+      "blocks": {
+        "item_qp7jPa": {
           "type": "item",
           "settings": {
-            "title": "💧 Hygiène optimale",
-            "description": "<p>Nettoyage doux, sensation de fraîcheur immédiate.</p>",
-            "btn_text": "",
+            "title": "First Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
             "btn_url": ""
           }
         },
-        "usp_ecologie": {
+        "item_h9wANh": {
           "type": "item",
           "settings": {
-            "title": "🌱 Écologique",
-            "description": "<p>Zéro déchet, respectueux de l’environnement.</p>",
-            "btn_text": "",
+            "title": "Second Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
             "btn_url": ""
           }
         },
-        "usp_portable": {
+        "item_hAPJWn": {
           "type": "item",
           "settings": {
-            "title": "🎒 Portable & discret",
-            "description": "<p>Emportez-le partout : voyage, travail, sport.</p>",
-            "btn_text": "",
+            "title": "Third Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
             "btn_url": ""
           }
         },
-        "usp_usb": {
+        "item_9EkHYL": {
           "type": "item",
           "settings": {
-            "title": "⚡ Rechargeable USB",
-            "description": "<p>Autonomie longue durée, utilisation simple.</p>",
-            "btn_text": "",
+            "title": "Fourth Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_iKKgHJ": {
+          "type": "item",
+          "settings": {
+            "title": "Fifth Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "item_Je3xNm": {
+          "type": "item",
+          "settings": {
+            "title": "Sixth Card",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa velit, sagittis nec pharetra id, iaculis non sapien.</p>",
+            "btn_text": "Learn more",
             "btn_url": ""
           }
         }
       },
       "block_order": [
-        "usp_hygiene",
-        "usp_ecologie",
-        "usp_portable",
-        "usp_usb"
+        "item_qp7jPa",
+        "item_h9wANh",
+        "item_hAPJWn",
+        "item_9EkHYL",
+        "item_iKKgHJ",
+        "item_Je3xNm"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -109,324 +393,115 @@
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
-        "border_opacity": 15,
+        "border_opacity": 100,
         "container_max_width": "",
-        "header_title": "Hygiène portable sans compromis",
-        "header_title_font_size": "h2",
-        "header_description": "<p id=\"pourquoi-aquasplash\">Les 4 piliers Aquasplash pour une routine plus saine.</p>",
+        "header_title": "Card Slider",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
-        "item_bg_color": "bg-white",
-        "item_bg_opacity": 100,
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": true,
+        "slider_autoplay": 0,
+        "item_bg_color": "bg-body",
+        "item_bg_opacity": 0,
         "item_text_color": "text-body",
         "item_border_width": 1,
-        "item_border_color": "border-body",
-        "item_border_opacity": 15,
+        "item_border_color": "",
+        "item_border_opacity": 100,
         "item_shadow": "shadow-sm",
-        "item_text_align": "text-center",
-        "item_img_orientation": "ratio-1x1",
+        "item_text_align": "text-start",
+        "item_img_orientation": "ratio-4x3",
         "item_title_font_size": "h5",
-        "item_description_font_size": "fs-md",
+        "item_description_font_size": "",
         "item_btn_color": "btn-outline-primary",
         "item_btn_size": "btn-sm",
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 8,
-        "pb": 9
+        "pt": 10,
+        "pb": 11
       }
     },
-    "comparison": {
+    "html_Y7Cp8x": {
       "type": "html",
       "settings": {
-        "liquid": "<style>\n  #html-section-comparison .aquasplash-comparison table { border-collapse: separate; border-spacing: 0; }\n  #html-section-comparison .aquasplash-comparison thead th { background-color: rgba(14, 165, 233, 0.08); font-weight: 600; }\n  #html-section-comparison .aquasplash-comparison th,\n  #html-section-comparison .aquasplash-comparison td { padding: 0.85rem 1rem; border-bottom: 1px solid rgba(17, 24, 39, 0.08); }\n  #html-section-comparison .aquasplash-comparison tbody tr:last-child td,\n  #html-section-comparison .aquasplash-comparison tbody tr:last-child th { border-bottom: none; }\n  #html-section-comparison .aquasplash-comparison .text-check { color: #22C55E; font-weight: 600; }\n  #html-section-comparison .aquasplash-comparison .text-alert { color: #0EA5E9; font-weight: 600; }\n  #html-section-comparison .aquasplash-comparison .text-cross { color: rgba(17, 24, 39, 0.6); }\n</style>\n<div class=\"table-responsive aquasplash-comparison mt-6\">\n  <table class=\"table align-middle mb-0\">\n    <thead>\n      <tr>\n        <th scope=\"col\">Critère</th>\n        <th scope=\"col\">Aquasplash</th>\n        <th scope=\"col\">Papier</th>\n        <th scope=\"col\">Bidet fixe</th>\n        <th scope=\"col\">Lingettes</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <th scope=\"row\" class=\"fw-semibold\">Hygiène</th>\n        <td class=\"text-check\">✅ Jet d’eau précis</td>\n        <td class=\"text-alert\">⚠️ Nettoyage partiel</td>\n        <td class=\"text-alert\">⚠️ Fixe au domicile</td>\n        <td class=\"text-cross\">❌ Résidus sur la peau</td>\n      </tr>\n      <tr>\n        <th scope=\"row\" class=\"fw-semibold\">Écologie</th>\n        <td class=\"text-check\">✅ Zéro déchet</td>\n        <td class=\"text-cross\">❌ Papier à usage unique</td>\n        <td class=\"text-alert\">⚠️ Consommation d’eau élevée</td>\n        <td class=\"text-cross\">❌ Composés chimiques</td>\n      </tr>\n      <tr>\n        <th scope=\"row\" class=\"fw-semibold\">Portabilité</th>\n        <td class=\"text-check\">✅ Format compact</td>\n        <td class=\"text-cross\">❌ Non</td>\n        <td class=\"text-cross\">❌ Installation fixe</td>\n        <td class=\"text-alert\">⚠️ Encombrant en voyage</td>\n      </tr>\n      <tr>\n        <th scope=\"row\" class=\"fw-semibold\">Coût sur 1 an</th>\n        <td class=\"text-check\">✅ Investissement unique</td>\n        <td class=\"text-cross\">❌ Achats récurrents</td>\n        <td class=\"text-alert\">⚠️ Installation coûteuse</td>\n        <td class=\"text-cross\">❌ Packs multiples</td>\n      </tr>\n      <tr>\n        <th scope=\"row\" class=\"fw-semibold\">Installation</th>\n        <td class=\"text-check\">✅ Aucun outil</td>\n        <td class=\"text-check\">✅ Immédiate</td>\n        <td class=\"text-cross\">❌ Travaux requis</td>\n        <td class=\"text-check\">✅ Simple</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n<div class=\"mt-4\">\n  <a class=\"btn btn-outline-primary\" href=\"#temoignages-aquasplash\">Voir les témoignages</a>\n</div>",
-        "bg_color": "bg-white",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 15,
-        "container": "container",
-        "container_max_width": "",
-        "text_align": "text-start",
-        "header_title": "Aquasplash vs alternatives",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Comparez les solutions d’hygiène les plus courantes et découvrez pourquoi Aquasplash s’impose.</p>",
-        "header_description_font_size": "fs-md",
-        "pt": 8,
-        "pb": 8
-      }
-    },
-    "stats_performance": {
-      "type": "card-list",
-      "blocks": {
-        "stat_satisfaction": {
-          "type": "item",
-          "settings": {
-            "title": "92%",
-            "description": "<p>déclarent une satisfaction immédiate.</p>",
-            "btn_text": "",
-            "btn_url": ""
-          }
-        },
-        "stat_papier": {
-          "type": "item",
-          "settings": {
-            "title": "90%",
-            "description": "<p>réduisent l’usage de papier toilette.</p>",
-            "btn_text": "",
-            "btn_url": ""
-          }
-        },
-        "stat_hygiene": {
-          "type": "item",
-          "settings": {
-            "title": "95%",
-            "description": "<p>ressentent une meilleure hygiène quotidienne.</p>",
-            "btn_text": "",
-            "btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "stat_satisfaction",
-        "stat_papier",
-        "stat_hygiene"
-      ],
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 10,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 0,
-        "container_max_width": "",
-        "header_title": "Résultats mesurables",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Étude réalisée auprès de 500 clients Aquasplash en 2024.</p>",
-        "header_description_font_size": "fs-md",
-        "item_bg_color": "bg-white",
-        "item_bg_opacity": 100,
-        "item_text_color": "text-body",
-        "item_border_width": 0,
-        "item_border_color": "border-body",
-        "item_border_opacity": 0,
-        "item_shadow": "shadow-sm",
-        "item_text_align": "text-center",
-        "item_img_orientation": "ratio-1x1",
-        "item_title_font_size": "h1",
-        "item_description_font_size": "fs-lg",
-        "item_btn_color": "btn-outline-primary",
-        "item_btn_size": "btn-sm",
-        "breakpoint_mobile": 1,
-        "breakpoint_tablet": 3,
-        "breakpoint_desktop": 3,
-        "pt": 9,
-        "pb": 9
-      }
-    },
-    "temoignages": {
-      "type": "testimonials",
-      "blocks": {
-        "temoignage_clara": {
-          "type": "item",
-          "settings": {
-            "title": "Fraîcheur instantanée",
-            "description": "<p>« Depuis que j’utilise Aquasplash, je me sens frais à chaque passage. Mon sac de sport n’a jamais été aussi utile. »</p>",
-            "author": "Clara, Lyon",
-            "author_subtitle": "Utilisatrice quotidienne"
-          }
-        },
-        "temoignage_denis": {
-          "type": "item",
-          "settings": {
-            "title": "Voyager léger",
-            "description": "<p>« En déplacement toutes les semaines, Aquasplash m’évite les lingettes jetables. C’est discret et hyper simple à recharger. »</p>",
-            "author": "Denis, Consultant",
-            "author_subtitle": "Voyage professionnel"
-          }
-        },
-        "temoignage_melissa": {
-          "type": "item",
-          "settings": {
-            "title": "Routine familiale",
-            "description": "<p>« Les enfants l’ont adopté sans effort. On consomme beaucoup moins de papier et c’est bien plus rassurant niveau hygiène. »</p>",
-            "author": "Mélissa, Nantes",
-            "author_subtitle": "Famille de 4 personnes"
-          }
-        }
-      },
-      "block_order": [
-        "temoignage_clara",
-        "temoignage_denis",
-        "temoignage_melissa"
-      ],
-      "settings": {
+        "liquid": "<p class=\"alert alert-primary text-center\">Current datetime is: <b>{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}</b></p>\n\n<iframe class=\"rounded\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5458.176837636101!2d7.264440042281333!3d43.69609386612476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddaa162b4a50b%3A0x77566707bed909ce!2sFontaine%20du%20Soleil!5e0!3m2!1sen!2s!4v1651756644654!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "bg_color": "bg-body",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
-        "border_top_width": 0,
+        "border_top_width": 1,
         "border_bottom_width": 0,
         "border_color": "border-body",
-        "border_opacity": 15,
-        "container_max_width": "900",
-        "header_title": "Ils ne peuvent plus s’en passer",
-        "header_title_font_size": "h2",
-        "header_description": "<p id=\"temoignages-aquasplash\">Des clients de tous horizons partagent leur nouvelle routine.</p>",
-        "header_description_font_size": "fs-md",
-        "slider_speed": 300,
-        "slider_navigation": false,
-        "slider_pagination": true,
-        "slider_pagination_type": "bullets",
-        "slider_scrollbar": false,
-        "slider_partial_slides_mobile": false,
-        "slider_autoplay": 0,
-        "breakpoint_mobile": 1,
-        "breakpoint_tablet": 2,
-        "breakpoint_desktop": 3,
-        "card_bg_color": "bg-white",
-        "card_bg_opacity": 100,
-        "card_text_color": "text-body",
-        "card_border_width": 1,
-        "card_border_color": "border-body",
-        "card_border_opacity": 15,
-        "card_shadow": "shadow-sm",
-        "card_text_align": "text-start",
-        "card_show_stars": true,
-        "card_title_font_size": "h5",
-        "card_description_font_size": "fs-md",
-        "pt": 9,
-        "pb": 9
-      }
-    },
-    "faq_aquasplash": {
-      "type": "faq",
-      "blocks": {
-        "faq_livraison": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les délais de livraison ?",
-            "description": "<p>Votre Aquasplash est expédié sous 24 h depuis notre entrepôt français. La livraison standard prend 2 à 3 jours ouvrés.</p>"
-          }
-        },
-        "faq_autonomie": {
-          "type": "item",
-          "settings": {
-            "title": "Quelle est l’autonomie ?",
-            "description": "<p>Une charge USB-C offre jusqu’à 30 utilisations complètes. Une LED discrète vous indique quand recharger.</p>"
-          }
-        },
-        "faq_recharge": {
-          "type": "item",
-          "settings": {
-            "title": "Comment se recharge Aquasplash ?",
-            "description": "<p>Utilisez le câble USB-C fourni. La charge est complète en 90 minutes et sécurisée contre la surchauffe.</p>"
-          }
-        },
-        "faq_nettoyage": {
-          "type": "item",
-          "settings": {
-            "title": "Comment entretenir le réservoir ?",
-            "description": "<p>Un rinçage à l’eau chaude et une goutte de savon doux suffisent. Tous les matériaux sont sans BPA et résistants aux éclaboussures.</p>"
-          }
-        },
-        "faq_garantie": {
-          "type": "item",
-          "settings": {
-            "title": "Quelle garantie est incluse ?",
-            "description": "<p>Vous bénéficiez d’une garantie satisfaction de 30 jours et d’une garantie produit de 2 ans.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_livraison",
-        "faq_autonomie",
-        "faq_recharge",
-        "faq_nettoyage",
-        "faq_garantie"
-      ],
-      "settings": {
-        "bg_color": "bg-white",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 15,
+        "border_opacity": 10,
+        "container": "container",
         "container_max_width": "",
-        "header_title": "Questions fréquentes",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Besoin d’un conseil personnalisé ? Notre équipe vous répond en moins de 24 h.</p>",
-        "header_description_font_size": "fs-md",
-        "open_first_item": true,
-        "pt": 9,
-        "pb": 9
-      }
-    },
-    "cta_finale": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 100,
-        "bg_gradient": "bg-gradient",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 0,
-        "container_max_width": "720",
         "text_align": "text-center",
-        "title": "Passez au futur de l’hygiène portable",
-        "title_font_size": "h2",
-        "description": "<p>Rejoignez la communauté Aquasplash et profitez aujourd’hui de <strong>-20% sur votre première commande</strong>.<br/>Paiement sécurisé, livraison suivie et garantie 30 jours.</p>",
-        "description_font_size": "fs-lg",
-        "btn_primary_text": "Acheter maintenant -20% aujourd’hui",
-        "btn_primary_url": "/products/aquasplash",
-        "btn_primary_color": "btn-white",
-        "btn_secondary_text": "Découvrir la technologie",
-        "btn_secondary_url": "#comparison",
-        "btn_secondary_color": "btn-outline-white",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
         "pt": 10,
         "pb": 10
       }
     },
-    "before_after_showcase": {
-      "type": "before-after",
+    "faq_7TT7z4": {
+      "type": "faq",
       "blocks": {
-        "result_confort": {
-          "type": "highlight",
+        "item_AgKJ3m": {
+          "type": "item",
           "settings": {
-            "icon": "💧",
-            "title": "Peau apaisée",
-            "description": "<p>La micro-brumisation cible les zones sensibles et réduit de 60% la sensation d&#39;inconfort cutané.</p>"
+            "title": "Where do you ship?",
+            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.</p>"
           }
         },
-        "result_economie": {
-          "type": "highlight",
+        "item_EemRD3": {
+          "type": "item",
           "settings": {
-            "icon": "♻️",
-            "title": "0 déchet jetable",
-            "description": "<p>Jusqu&#39;à 240 lingettes économisées par mois grâce au réservoir rechargeable.</p>"
+            "title": "How long will it take to receive my order",
+            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.</p>"
           }
         },
-        "result_autonomie": {
-          "type": "highlight",
+        "item_jyLYkB": {
+          "type": "item",
           "settings": {
-            "icon": "🔋",
-            "title": "Autonomie optimisée",
-            "description": "<p>Suivi intelligent de la batterie et rappel de recharge dans l&#39;application compagnon.</p>"
+            "title": "What payment methods do you support?",
+            "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.</p>"
+          }
+        },
+        "item_pHCJRG": {
+          "type": "item",
+          "settings": {
+            "title": "How can I track my order?",
+            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567</p>"
+          }
+        },
+        "item_kWLWrb": {
+          "type": "item",
+          "settings": {
+            "title": "Can I order as a gift for someone else?",
+            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.</p>"
+          }
+        },
+        "item_dizKmG": {
+          "type": "item",
+          "settings": {
+            "title": "How can I get a refund for my order?",
+            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.</p>"
           }
         }
       },
       "block_order": [
-        "result_confort",
-        "result_economie",
-        "result_autonomie"
+        "item_AgKJ3m",
+        "item_EemRD3",
+        "item_jyLYkB",
+        "item_pHCJRG",
+        "item_kWLWrb",
+        "item_dizKmG"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -436,75 +511,124 @@
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
-        "border_opacity": 10,
-        "pt": 8,
-        "pb": 8,
-        "container_max_width": 1200,
-        "header_title": "Avant / après : preuves à l’appui",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "open_first_item": true,
+        "header_title": "FAQs",
         "header_title_font_size": "h2",
-        "header_description": "<p>Nos tests cliniques démontrent un gain de confort immédiat et une diminution des irritations dès 7 jours.</p>",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
-        "lead_text": "Une amélioration mesurable sur le confort cutané dès la première semaine.",
-        "before_image": "shopify://shop_images/lifestyle-2.jpg",
-        "after_image": "shopify://shop_images/lifestyle-3.jpg",
-        "media_orientation": "ratio-4x3",
-        "media_ratio": "16 / 9",
-        "default_position": 58,
-        "before_label": "Sans Aquasplash",
-        "after_label": "Avec Aquasplash",
-        "slider_label": "Comparer les résultats Aquasplash",
-        "cta_text": "Voir le protocole dermatologique",
-        "cta_url": "/pages/la-science",
-        "cta_style": "btn-outline-primary",
-        "footnote": "Étude menée en laboratoire indépendant sur 50 volontaires, janvier 2024."
+        "pt": 2,
+        "pb": 11
       }
     },
-    "journey_timeline": {
-      "type": "feature-timeline",
+    "testimonials_eFtnyC": {
+      "type": "testimonials",
       "blocks": {
-        "step_preparer": {
-          "type": "step",
+        "item_B99dNi": {
+          "type": "item",
           "settings": {
-            "icon": "🚰",
-            "title": "Remplir",
-            "meta": "30 s",
-            "description": "<p>Ajoutez de l&#39;eau tempérée jusqu&#39;au repère et quelques gouttes de solution apaisante.</p>"
+            "title": "First Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
           }
         },
-        "step_personnaliser": {
-          "type": "step",
+        "item_VPnR9Q": {
+          "type": "item",
           "settings": {
-            "icon": "🎯",
-            "title": "Personnaliser",
-            "meta": "Profil intelligent",
-            "description": "<p>Sélectionnez votre pression préférée via la molette latérale ou l&#39;application mobile.</p>"
+            "title": "Second Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
           }
         },
-        "step_utiliser": {
-          "type": "step",
+        "item_XTUtYy": {
+          "type": "item",
           "settings": {
-            "icon": "🌀",
-            "title": "Utiliser",
-            "meta": "Jet contrôlé",
-            "description": "<p>Visez précisément grâce au dôme ergonomique et profitez d&#39;un nettoyage sans contact.</p>"
+            "title": "Third Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
           }
         },
-        "step_recharger": {
-          "type": "step",
+        "item_79nB3i": {
+          "type": "item",
           "settings": {
-            "icon": "🔌",
-            "title": "Recharger",
-            "meta": "90 min",
-            "description": "<p>Rechargez en USB-C et consultez le suivi d&#39;autonomie dans votre espace client.</p>"
+            "title": "Fourth Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
+          }
+        },
+        "item_BUkPE7": {
+          "type": "item",
+          "settings": {
+            "title": "Fifth Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
+          }
+        },
+        "item_DtBFNc": {
+          "type": "item",
+          "settings": {
+            "title": "Sixth Testimonial",
+            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
+            "author": "Author's Name",
+            "author_subtitle": "Verified Customer"
           }
         }
       },
       "block_order": [
-        "step_preparer",
-        "step_personnaliser",
-        "step_utiliser",
-        "step_recharger"
+        "item_B99dNi",
+        "item_VPnR9Q",
+        "item_XTUtYy",
+        "item_79nB3i",
+        "item_BUkPE7",
+        "item_DtBFNc"
       ],
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 5,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 1,
+        "border_bottom_width": 1,
+        "border_color": "border-primary",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "header_title": "Testimonials",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": true,
+        "slider_autoplay": 0,
+        "card_bg_color": "bg-primary",
+        "card_bg_opacity": 10,
+        "card_text_color": "text-body",
+        "card_border_width": 1,
+        "card_border_color": "border-primary",
+        "card_border_opacity": 50,
+        "card_shadow": "shadow-none",
+        "card_text_align": "text-start",
+        "card_show_stars": true,
+        "card_title_font_size": "h5",
+        "card_description_font_size": "fs-sm",
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 4,
+        "pt": 10,
+        "pb": 12
+      }
+    },
+    "blog_slider_UUweWT": {
+      "type": "blog-slider",
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -513,37 +637,62 @@
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
-        "border_opacity": 10,
-        "pt": 9,
-        "pb": 10,
-        "container_max_width": 1200,
-        "header_title": "Votre parcours d’hygiène en 4 étapes",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Planifiez chaque geste pour garder une fraîcheur longue durée partout où vous allez.</p>",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "header_title": "Latest Posts",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
-        "lead_text": "Un déroulé simple pour profiter d’une hygiène premium même en déplacement.",
-        "secondary_text": "<p>Chaque étape est pensée pour être intuitive : voyants LED, repères haptiques et rappels automatiques vous guident à chaque utilisation.</p>",
-        "cta_text": "Ajouter Aquasplash au panier",
-        "cta_url": "/products/aquasplash",
-        "cta_style": "btn-primary",
-        "secondary_cta_text": "Télécharger le guide PDF",
-        "secondary_cta_url": "/pages/guide-utilisation",
-        "secondary_cta_style": "btn-outline-primary",
-        "helper_text": "Support client 7j/7 et livraisons suivies dans toute l’Europe.",
-        "enable_animation": true,
-        "animation_delay": 160
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": true,
+        "slider_autoplay": 0,
+        "blog": "news",
+        "limit": 8,
+        "article_card_text_align": "text-start",
+        "article_card_img_orientation": "ratio-16x9",
+        "article_card_img_border": "img-thumbnail",
+        "article_card_title_size": "fs-xl",
+        "article_card_meta": true,
+        "article_card_tags": true,
+        "article_card_excerpt": false,
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 3,
+        "pt": 10,
+        "pb": 12
+      }
+    },
+    "separator_pMbxtB": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "bg_color": "bg-secondary",
+        "bg_opacity": 25,
+        "height": 1,
+        "container": "container",
+        "container_max_width": "",
+        "pt": 0,
+        "pb": 0
       }
     }
   },
   "order": [
-    "hero_aquasplash",
-    "usp_pillars",
-    "comparison",
-    "before_after_showcase",
-    "stats_performance",
-    "journey_timeline",
-    "temoignages",
-    "faq_aquasplash",
-    "cta_finale"
+    "hero_carousel_CmDneU",
+    "featured_products_nXJKQn",
+    "richtext_4miPYL",
+    "richtext_AtYwxr",
+    "featured_collections_n3Br7m",
+    "separator_kfq8kz",
+    "media_with_text_xTY8gi",
+    "card_slider_BFzjjF",
+    "html_Y7Cp8x",
+    "faq_7TT7z4",
+    "testimonials_eFtnyC",
+    "blog_slider_UUweWT",
+    "separator_pMbxtB"
   ]
 }
